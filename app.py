@@ -12,7 +12,7 @@ load_dotenv()
 
 
 def model_summary(modelname, data_positive, data_negative):
-    os.environ["GROQ_API_KEY"] = os.getenv("groq_key")
+    os.environ["GROQ_API_KEY"] = "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"
     model = ChatGroq(model=modelname)
     data_positive = data_positive[:20]
     data_negative = data_negative[:20]
